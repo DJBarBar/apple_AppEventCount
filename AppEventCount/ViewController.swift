@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var countFinishLaunching: UILabel!
+    @IBOutlet weak var countBecomeActive: UILabel!
+    @IBOutlet weak var countResignActive: UILabel!
+    @IBOutlet weak var countEnterBackground: UILabel!
+    @IBOutlet weak var countEnterForeground: UILabel!
+    @IBOutlet weak var countWillTerminate: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
