@@ -28,6 +28,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    func updateUI() {
+        labelFinishLaunching.text = String(countFinishLaunching)
+        labelBecomeActive.text = String(countBecomeActive)
+        labelResignActive.text = String(countResignActive)
+        labelEnterBackground.text = String(countEnterBackground)
+        labelEnterForeground.text = String(countEnterForeground)
+        labelWillTerminate.text = String(countWillTerminate)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
