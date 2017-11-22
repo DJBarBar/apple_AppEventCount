@@ -135,14 +135,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="countBecomeActive" destination="592-X6-wSa" id="MEq-1J-3e0"/>
-                        <outlet property="countEnterBackground" destination="ZqN-JC-avs" id="IG5-wc-Y2a"/>
-                        <outlet property="countEnterForeground" destination="9f3-tJ-z4b" id="qkY-Nh-Bxs"/>
-                        <outlet property="countFinishLaunching" destination="7pd-TY-yYr" id="yNF-qc-c0c"/>
-                        <outlet property="countResignActive" destination="MQi-XP-hJR" id="fkL-Pe-wjW"/>
-                        <outlet property="countWillTerminate" destination="0pV-9n-C69" id="kuf-X7-8SP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

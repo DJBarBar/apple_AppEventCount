@@ -10,13 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var countFinishLaunching: UILabel!
-    @IBOutlet weak var countBecomeActive: UILabel!
-    @IBOutlet weak var countResignActive: UILabel!
-    @IBOutlet weak var countEnterBackground: UILabel!
-    @IBOutlet weak var countEnterForeground: UILabel!
-    @IBOutlet weak var countWillTerminate: UILabel!
+    @IBOutlet weak var labelFinishLaunching: UILabel!
+    @IBOutlet weak var labelBecomeActive: UILabel!
+    @IBOutlet weak var labelResignActive: UILabel!
+    @IBOutlet weak var labelEnterBackground: UILabel!
+    @IBOutlet weak var labelEnterForeground: UILabel!
+    @IBOutlet weak var labelWillTerminate: UILabel!
     
+    var countFinishLaunching:Int = 0
+    var countBecomeActive:Int = 0
+    var countResignActive:Int = 0
+    var countEnterBackground:Int = 0
+    var countEnterForeground:Int = 0
+    var countWillTerminate:Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
