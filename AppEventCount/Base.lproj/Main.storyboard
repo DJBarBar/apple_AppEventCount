@@ -135,6 +135,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="labelBecomeActive" destination="592-X6-wSa" id="txN-Kw-Yt3"/>
+                        <outlet property="labelEnterBackground" destination="ZqN-JC-avs" id="w9V-wP-lv4"/>
+                        <outlet property="labelEnterForeground" destination="9f3-tJ-z4b" id="h8S-C5-r2w"/>
+                        <outlet property="labelFinishLaunching" destination="7pd-TY-yYr" id="HeH-XF-gRr"/>
+                        <outlet property="labelResignActive" destination="MQi-XP-hJR" id="bao-GF-EfU"/>
+                        <outlet property="labelWillTerminate" destination="0pV-9n-C69" id="Twn-ZO-3Fj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
