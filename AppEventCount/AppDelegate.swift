@@ -13,12 +13,13 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var viewController: UIViewController?
+    var viewController: ViewController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         viewController = window?.rootViewController as? ViewController
+        viewController?.countFinishLaunching += 1
         
         return true
     }
