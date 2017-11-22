@@ -26,7 +26,24 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        updateUI()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    func updateUI() {
+        labelFinishLaunching.text
+            = "The app has launched \(countFinishLaunching) times"
+        labelBecomeActive.text
+            = "The app has become active \(countBecomeActive) times"
+        labelResignActive.text
+            = "The app has entered the will active state \(countResignActive) times"
+        labelEnterBackground.text
+            = "The app has entered the background \(countEnterBackground) times"
+        labelEnterForeground.text
+            = "The app has entered the foreground \(countEnterForeground) times"
+        labelWillTerminate.text
+            = "The app has entered the will terminate state \(countWillTerminate) times"
     }
 
     override func didReceiveMemoryWarning() {
